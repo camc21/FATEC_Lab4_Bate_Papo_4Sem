@@ -10,7 +10,7 @@ Além dos requisitos não funcionais descritos a seguir, o sistema é desenvolvi
 ## - Diagrama de Classes
 ![Diagrama De Classes](https://github.com/Marcoskisto/FATEC_Lab4_Bate_Papo_4Sem/blob/master/Documentacao/4-DiagramaDeClasses.jpg)
 ## - Diagrama de Casos de Uso
-![Diagrama de Casos de Uso](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/3-Caso_De_uso.jpg)
+![Diagrama de Casos de Uso](https://github.com/Marcoskisto/FATEC_Lab4_Bate_Papo_4Sem/blob/master/Documentacao/3-Caso_De_uso.jpg)
 ## - Requisitos Funcionais
 *Cadastro de Usuários;<br />
 *Listar Usuários;<br />
@@ -44,9 +44,9 @@ Além dos requisitos não funcionais descritos a seguir, o sistema é desenvolvi
 *Segurança das informações cadastrais;<br />
 *Acesso por HTTPS;
 ## - DER do banco de dados.
-![DER do banco de dados](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/1-DER_BatePapo.jpg)
+![DER do banco de dados](https://github.com/Marcoskisto/FATEC_Lab4_Bate_Papo_4Sem/blob/master/Documentacao/1-DER_BatePapo.jpg)
 ## -Diagrama Lógico
-![Diagrama Lógico](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/2-Diagrama_L%C3%B3gico_BatePapo.jpg)
+![Diagrama Lógico](https://github.com/Marcoskisto/FATEC_Lab4_Bate_Papo_4Sem/blob/master/Documentacao/2-Diagrama_L%C3%B3gico_BatePapo.jpg)
 
 
 
