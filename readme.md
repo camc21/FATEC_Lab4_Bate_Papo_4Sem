@@ -8,7 +8,7 @@ O Sistema consiste em um site de Chat com salas divididas em categorias por idad
 Além dos requisitos não funcionais descritos a seguir, o sistema é desenvolvido com back-end em PHP e framework Laravel e com front-end em bootstrap, html, css, javascript, etc.
 
 ## - Diagrama de Classes
-![Diagrama De Classes](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/4-DiagramaDeClasses.jpg)
+![Diagrama De Classes](https://github.com/Marcoskisto/FATEC_Lab4_Bate_Papo_4Sem/blob/master/Documentacao/4-DiagramaDeClasses.jpg)
 ## - Diagrama de Casos de Uso
 ![Diagrama de Casos de Uso](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/3-Caso_De_uso.jpg)
 ## - Requisitos Funcionais
