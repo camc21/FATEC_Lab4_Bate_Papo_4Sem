@@ -1,58 +1,54 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+# PROJETO LP4 FATEC - Bate Papo
+### Professor Fernando
+### Alunos: MARCOS CALIXTO - CARLOS AUGUSTO - JOSÉ ERNANI - PAULO GODOY
+### Descrição: 
+O Sistema consiste em um site de Chat com salas divididas em categorias por idade, região e etc. Os atores do sistema são os usuários comuns que o acessam para suas conversas e os administradores que realizam a moderação das mensagens e o gesrenciamento dos dados cadastrais.<br />
 
-## About Laravel
+Além dos requisitos não funcionais descritos a seguir, o sistema é desenvolvido com back-end em PHP e framework Laravel e com front-end em bootstrap, html, css, javascript, etc.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+## - Diagrama de Classes
+![Diagrama De Classes](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/4-DiagramaDeClasses.jpg)
+## - Diagrama de Casos de Uso
+![Diagrama de Casos de Uso](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/3-Caso_De_uso.jpg)
+## - Requisitos Funcionais
+*Cadastro de Usuários;<br />
+*Listar Usuários;<br />
+*Alterar Usuários;<br />
+*Excluir Usuários;<br />
+*Efetuar Login;<br />
+*Efetuar Logout;<br />
+*Cadastro de Estados;<br />
+*Listar Estados;<br />
+*Alterar Estados;<br />
+*Excluir Estados;<br />
+*Cadastro de Cidades;<br />
+*Listar Cidades;<br />
+*Alterar Cidades;<br />
+*Excluir Cidades;<br />
+*Cadastro de Salas;<br />
+*Listar Salas;<br />
+*Alterar Salas;<br />
+*Excluir Salas;<br />
+*Consulta usuários por sala;<br />
+*Entrar em uma sala;<br />
+*Sair de uma sala;<br />
+*Enviar mensagem.
+## - Requisitos Não-Funcionais
+*Quantidade máxima de usuários em uma sala;<br />
+*Quantidade de salas por subcategoria;<br />
+*Limite de caracteres por mensagem;<br />
+*Tempo de espera para entrar em uma sala;<br />
+*Tempo máximo sem iteração com a Sala;<br />
+*Limite de mensagens suportado pela sala;<br />
+*Segurança das informações cadastrais;<br />
+*Acesso por HTTPS;
+## - DER do banco de dados.
+![DER do banco de dados](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/1-DER_BatePapo.jpg)
+## -Diagrama Lógico
+![Diagrama Lógico](https://github.com/Marcoskisto/Bate_Papo_4Sem/blob/master/Documentacao/2-Diagrama_L%C3%B3gico_BatePapo.jpg)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+vide https://github.com/vitornere/partiuformar/wiki/Documento-de-Arquitetura-de-Software
