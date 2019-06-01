@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSalaidadeTable extends Migration
+class CreateSalaRelacionamentoTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateSalaidadeTable extends Migration
      */
     public function up()
     {
-        Schema::create('salaidade', function (Blueprint $table) {
-            $table->primary('sala_id');
-            $table->foreign('sala_id')->reference('id')->on('salas');
-            $table->number('idade');
+        Schema::create('sala_relacionamento', function (Blueprint $table) {
+            $table->increments("id");
+            $table->string('tipo_relacionamento');
+            $table->timestamps();
         });
     }
 
@@ -27,6 +27,6 @@ class CreateSalaidadeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('salaidade');
+        Schema::dropIfExists('sala_relacionamento');
     }
 }

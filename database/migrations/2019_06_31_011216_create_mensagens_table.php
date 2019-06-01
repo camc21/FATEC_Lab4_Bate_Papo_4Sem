@@ -15,8 +15,10 @@ class CreateMensagensTable extends Migration
     {
         Schema::create('mensagens', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->datetime('data_registro');
             $table->string('texto');
+            $table->integer('usuario_id')->unsigned();
+            $table->integer('sala_id')->unsigned();
             $table->foreign('usuario_id')->references('id')->on('users');
             $table->foreign('sala_id')->references('id')->on('salas');
         });

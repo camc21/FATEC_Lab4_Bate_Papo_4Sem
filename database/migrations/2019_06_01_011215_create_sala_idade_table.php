@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSalarelacionamentoTable extends Migration
+class CreateSalaIdadeTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateSalarelacionamentoTable extends Migration
      */
     public function up()
     {
-        Schema::create('salarelacionamento', function (Blueprint $table) {
-            $table->primary('sala_id');
-            $table->foreign('sala_id')->reference('id')->on('salas');
-            $table->string('tipo_relacionamento');
+        Schema::create('sala_idade', function (Blueprint $table) {
+            $table->increments('id');
+            $table->integer('idade');
+            $table->timestamps();
         });
     }
 
@@ -27,6 +27,6 @@ class CreateSalarelacionamentoTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('salarelacionamento');
+        Schema::dropIfExists('sala_idade');
     }
 }
