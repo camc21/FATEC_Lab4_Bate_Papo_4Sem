@@ -15,6 +15,13 @@ class CreateMensagemTable extends Migration
     {
         Schema::create('mensagem', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('texto');
+            $table->integer('user_id')->unsigned();
+            $table->integer('sala_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')
+            ->onUpdate('cascade');
+            $table->foreign('sala_id')->references('id')->on('sala')->onDelete('cascade')
+            ->onUpdate('cascade');
             $table->timestamps();
         });
     }
